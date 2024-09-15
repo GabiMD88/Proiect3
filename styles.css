@@ -1,0 +1,58 @@
+.Primul {
+    
+    border: 1px solid black;
+    margin: 16px 32px 8px 32px 
+    padding: 16px 16px 32px 32px
+}
+
+.Second {
+    p:first-child,
+    p:nth-child(3),
+    p:last-child {
+        color: red;
+        }
+}
+
+.Trei {
+    border: 2px solid black;
+    border:hover {
+        color: red;
+      }
+    width: 75px;
+    height:75px;
+    
+}
+.Patru {
+    border: 3px solid green;
+    width: 250px;
+    height:50px;
+}
+
+.Cinci {
+    border: 2px solid purple;
+    width: 25%;
+    height:50%;
+}
+#Titlu::before {
+        content: 'Initial';
+        color: yellowgreen;
+    }
+#Titlu::after {
+        content: 'Dupa';
+        color: blue;
+    }
+.Sapte {
+    font-size: 2rem;
+}
+.Opt {
+    font-size: 2em;
+}
+.Sapte,
+.Opt {
+    font-size: 48px;
+}
+.Noua {
+    border: 3px solid yellow;
+    width: 75vw;
+    height:75vh;
+}
